@@ -12,28 +12,26 @@ The goal is to reduce the complexity of hosting a Minecraft server so users can 
 
 
 
-Version 1.0:
+What's new:
 
-. Start and stop Minecraft server from a GUI
-. RAM allocation control via slider
-. Live server console output
-. Simple interface for beginners
-
-
+. Auto-detects if Java is installed and shows a clear error with a download link if it isn't
+. Checks for server.jar before starting and tells you exactly where to place it if missing
+. Automatically creates and accepts eula.txt so you don't have to manually edit it
+. RAM allocation now shows the current GB value next to the slider
+. Start and Stop buttons now disable/enable based on server state
+. Server process is now safely terminated if it doesn't stop within 15 seconds
+. Auto-update checker — the app will notify you on launch when a new version is available
+. Dark Minecraft-themed UI with green accents
 
 Requirements:
 
-1. Download the official server.jar from Mojang Studios and place it in the correct folder:
-
-   Minecraft Server Manager/server.jar
-
-2. You must have java installed (Java 17 or newer)
-3. have the default port, 25565, enabled in your router settings to have others join your server
-
+. Java 17 or newer — https://adoptium.net
+. Download server.jar from https://minecraft.net/download/server and place it in the Minecraft Server Manager folder
+. Port 25565 open in your router settings for others to join
 
 
 How to Run:
 
-1. Navigate to /dist folder
-2. run server\_manager.exe
+1. go to releases and navigate to latest release
+2. download and run the .exe
 
